@@ -1,0 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Arial", Roboto, "Open Sans", sans-serif,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, Cantarell,
+    "Helvetica Neue";
+  font-size: 17px;
+}
+* {
+  text-decoration: none;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding-top: 15px;
+}
+.form {
+  height: 410px;
+  width: 410px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.text_email,
+.text_password,
+.text_name {
+  padding-left: 35px;
+  padding-top: 3px;
+}
+.input_email,
+.input_password,
+.input_name {
+  padding-left: 35px;
+}
+.help_label {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.form-reg {
+  width: 410px;
+  height: 510px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.form-forgot {
+  width: 410px;
+  height: 375px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.help_label {
+  color: #4b4b4b;
+  cursor: pointer;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  border: 1px solid #aaaaaa;
+  padding-left: 10px;
+  font-size: 17px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+}
